@@ -50,6 +50,13 @@ h4 {
     font-size: 18px;
 }
 
+button,
+input,
+.btn,
+a.btn {
+    color: white;
+}
+
 .btn {
     font-weight: bold;
 }
@@ -67,7 +74,7 @@ img {
 /*===HERO===*/
 
 #hero {
-    background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
+    background: url('../img/hero-bg.jpg') 50% 0 no-repeat fixed;
     min-height: 500px;
     padding: 40px 0;
     color: white;
@@ -130,13 +137,84 @@ img {
 
 /*====LAYOUT====*/
 
-#option {
+section {
+    padding: 80px 0;
+}
+
+.section-header {
+    text-align: center;
+}
+
+section h2 {
+    margin: 20px 0 40px;
+}
+
+section h3 {
+    margin: 30px 0 10px;
+}
+
+#optin {
     background: #3e4249;
     padding: 20px 0;
     color: white;
     font-size: 1.2em;
 }
 
-#option p {
+#optin p {
     margin: 7px 0 0 0;
+}
+
+#who-benefits {
+    background: white;
+}
+
+#course-features {
+    background: #3e4249;
+    color: white;
+    text-align: center;
+}
+
+#project-features {
+    text-align: center;
+}
+
+#video-features {
+    background: url('../img/stuff-bg.jpg') 0 100% repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+/*====CUSTOM ICON SPRITES====*/
+
+i.ci {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer {
+    background-position: 0 0;
+}
+
+.ci.ci-watch {
+    background-position: -40px 0;
+}
+
+.ci.ci-calendar {
+    background-position: -80px 0;
+}
+
+.ci.ci-community {
+    background-position: -120px 0;
+}
+
+.ci.ci-instructor {
+    background-position: -160px 0;
+}
+
+.ci.ci-device {
+    background-position: -200px 0;
 }
